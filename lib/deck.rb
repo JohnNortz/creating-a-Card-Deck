@@ -11,6 +11,7 @@ class Deck
       end
     end
     @cards.each do |putCard|
+      puts putCard.to_s
       puts putCard
     end
   end

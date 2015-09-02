@@ -12,5 +12,9 @@ describe "New Deck" do
     deck.cards[1].rank.wont_be :== , deck.cards[2].rank
 
 
+    deck.cards[0].suit.wont_be :== , deck.cards[13].suit
+    deck.cards[0].suit.wont_be :== , deck.cards[26].suit
+
+
   end
 end
